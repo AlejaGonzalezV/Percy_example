@@ -10,5 +10,5 @@ PercyScript.run(async (page, percySnapshot) => {
   await page.type('.new-todo', 'A really important todo');
   await page.keyboard.press('Enter');
   await percySnapshot('TodoMVC with a new todo', { widths: [768, 992, 1200] });
-  //
+  //<h1 style="color:#9e66bf;">todos</h1>
 });
